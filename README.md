@@ -1,1 +1,1 @@
-# -Smart_Waste_Classification_System
+# Smart_Waste_Classification_System
