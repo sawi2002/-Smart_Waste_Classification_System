@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import json
 
-model = tf.keras.models.load_model("waste_model.h5")
+model = tf.keras.models.load_model("waste_model.h5", compile=False)
 
 with open("class_names.json") as f:
     class_names = json.load(f)
